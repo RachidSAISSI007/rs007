@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popping' , sans-serif ;
+}
+
+body{
+    color: #f8f8f8;
+    background-color: #0a2e5e;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-family: 'fredoka';
+    font-size: 90px;
+    color: #ff7301;
+    text-decoration: none;
+    font-size: 900;
+}
+
+.navbar a {
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active4 {
+    color: #ff7301;
+}
+
+.home4{
+    display: flex;
+    align-content: center;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: cover;
+    background-position: center;
+    padding: 0 10%;
+}
+.inputr{
+    background-color: #ff7301;
+    padding: 100px 10%;
+    justify-content: space-between;
+    width: 500px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-right: 35px;
+}
+.email{
+    width: 400px;
+    font-weight: 300;
+}

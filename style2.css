@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popping' , sans-serif ;
+}
+
+body{
+    color: #ffffff;
+    background-color: #0a2e5e;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+} 
+
+.logo{
+        position: relative;
+        font-family: 'fredoka';
+        font-size: 90px;
+        color: #ff7301;
+        text-decoration: none;
+        font-size: 900;
+}
+
+.navbar a {
+        font-size: 25px;
+        color: rgb(17, 17, 17);
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: .3s;
+}
+    .navbar a:hover,
+    .navbar a.active2 {
+        color: #ff7301;
+}
+
+.home2{
+        display: flex;
+        align-content: center;
+        position: relative;
+        align-items: center;
+        height: 100vh;
+        background: rgb(20, 59, 110);
+        width: 100%;
+        background: cover;
+        background-position: center;
+        padding: 0 10%;
+} 
+
+.home-content2{
+    max-width: 1000px;
+    z-index: 2;
+} 
+.home-content2 h1 {
+    color: #7353b1;
+    font-size: 65px;
+    font-weight: 800;
+}
+.rr2{
+    position: absolute;
+    border-radius: 20%;
+    margin-left: 600px;
+    left: 700px;
+    width: 400px;
+    bottom: 20%;
+}
+.home-content2 p {
+    font-size: 35px;
+    margin: 35px 0 100px;
+}
+.btn2{
+    font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	margin-bottom: 45px;
+	color: #1a9da7;
+}
